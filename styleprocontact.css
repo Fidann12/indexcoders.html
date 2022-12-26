@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  font-weight: italic;
+  color: dimgray;
+}
+.container ul li a:hover {
+  transition: 0.1s;
+  color: #71cd29;
+}
+.home_li {
+  border: 0 solid;
+  background-color: rgb(89, 237, 89);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: aliceblue;
+}
+.second_ul {
+  display: flex;
+  gap: 40px;
+  font-size: 30px;
+}
+a {
+  color: inherit;
+}
+.second {
+  background-color: #eff2f4;
+  padding-top: 20px;
+  padding-bottom: 7px;
+}
+.second ul {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  gap: 20px;
+}
+.second > div > div > ul > li > i {
+  color: rgb(91, 197, 86);
+}
+.dental {
+  color: rgb(43, 41, 41);
+}
+.green_li {
+  font-size: 40px;
+}
+.gray_li {
+  color: rgb(112, 112, 112);
+  font-size: 20px;
+}
+.thirds_header {
+  height: 176px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 0;
+}
+.thirds_header::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #1b9ed2;
+  background-image: url("https://preview.colorlib.com/theme/prodent/img/pattren.png.webp");
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+.thirds_header h1 {
+  color: #fff;
+  font-weight: 100;
+  font-size: 65px;
+}
+.map_form_section {
+  display: flex;
+}
+.mains_div {
+  display: block;
+}
+.contact_text {
+  width: 22%;
+}
+.contact_text img {
+  width: 100%;
+  border: 4px solid #71cd29;
+  border-radius: 50%;
+}
+.contact-form {
+  border: 0 solid rgb(202, 197, 197);
+  padding: 20px 20px;
+}
+.map_div {
+  width: 100%;
+  height: 80vh;
+}
+.btn {
+  border: 0 solid #71cd29;
+  border-radius: 4px;
+  padding: 20px 50px;
+  cursor: pointer;
+  background-color: #71cd29;
+}
+.Subscrieb {
+  background-color: #57a51b;
+}
+.lorem {
+  color: #fff;
+}
+.main_div {
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  padding: 30px 40px;
+  position: relative;
+}
+.subscribe {
+  background-color: rgb(32, 29, 29);
+  border: 0 solid;
+  color: #fff;
+  padding: 30px 30px;
+  position: absolute;
+}
+.prodent {
+  background-image: url("https://preview.colorlib.com/theme/prodent/img/footer-bg.jpg.webp");
+  padding: 50px;
+}
+.Phasellus {
+  padding-top: 20px;
+  line-height: 30px;
+}
+.ours {
+  padding-bottom: 30px;
+  color: #fff;
+}
+.dental_implants {
+  line-height: 50px;
+}
+.opening_hours {
+  display: inline-block;
+  gap: 70px;
+  line-height: 50px;
+  border: 1px solid #57a51b;
+  padding: 20px;
+  cursor: pointer;
+}
+.opening {
+  padding-top: 50px;
+}
+.week_ul .opening:hover {
+  transition: 0.1s;
+  color: #57a51b;
+}
+.last_div {
+  background-color: #0d0d0d;
+}
+.home_about_us {
+  display: flex;
+  gap: 40px;
+  cursor: pointer;
+}
+.green {
+  color: #57a51b;
+}
+.ul_li .home_about_us li:hover {
+  transition: 0.1s;
+  color: #57a51b;
+}
+

@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.box {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+}
+ul li a {
+  padding: 10px;
+  color: #fff;
+  width: 90%;
+  max-width: 1200px;
+  font-size: 20px;
+}
+.hero {
+  background-image: url("https://preview.colorlib.com/theme/skwela/images/big_image_1.jpg.webp");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+ul li {
+  font-size: 15px;
+  color: #fff;
+}
+#first__div a {
+  color: #fff;
+}
+.box {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  font-size: 30px;
+}
+.about h1 {
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 70px;
+}
+.about h3 {
+  color: rgb(193, 186, 186);
+  font-size: 30px;
+}
+.about {
+  margin: 100px auto;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+button {
+  background-color: rgb(30, 117, 160);
+  color: #fff;
+  border: rgb(30, 117, 160);
+  font-size: 20px;
+  padding: 20px 70px;
+  margin-top: 70px;
+  display: flex;
+  transition: 0.4s;
+  cursor: pointer;
+  justify-content: center;
+}
+button:hover {
+  background-color: rgb(63, 137, 164);
+}
+.demo {
+  background-image: url("https://preview.colorlib.com/theme/skwela/images/big_image_3.jpg.webp");
+}
+.online_trainings h1 {
+  color: #fff;
+  font-size: 20px;
+}
+.online_trainings h3 {
+  color: rgb(214, 201, 201);
+  font-size: 15px;
+}
+.main_div {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.img_text_div {
+  padding: 20px;
+  line-height: 40px;
+  border-right: 2px solid rgba(0, 0, 0, 0.1);
+}
+#last_div {
+  border-right: 0;
+}
+.second__div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.all__about {
+  width: 25%;
+  padding: 100px;
+  border-right: 2px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+.lorem_ipsum h1 {
+  font-size: 20px;
+}
+.lorem_ipsum h3 {
+  color: rgb(167, 160, 160);
+  font-size: 15px;
+}
+#lastt_div {
+  border-right: 0;
+}
+.central_div {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.demo_ {
+  background-image: url("https://preview.colorlib.com/theme/skwela/images/big_image_3.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.central_div h1 {
+  font-size: 30px;
+  color: #fff;
+}
+.central_div h3 {
+  font-size: 25px;
+  color: #fff;
+  
+}
+#second_button {
+  background-color: rgb(30, 117, 160);
+  color: #fff;
+  border: rgb(30, 117, 160);
+  font-size: 20px;
+  padding: 20px 70px;
+  margin-top: 70px;
+  transition: 0.4s;
+  cursor: pointer;
+}

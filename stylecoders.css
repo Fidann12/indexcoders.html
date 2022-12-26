@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+a {
+  color: inherit;
+}
+.container {
+  width: 1440px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+.hero ul {
+  display: flex;
+  height: 100%;
+}
+.hero_div ul {
+  display: flex;
+  align-items: center;
+}
+.icon_div {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(178, 172, 172);
+}
+.icon_div ul {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+}
+.btn {
+  background: linear-gradient(69.2deg, #2eb8cd -1.2%, #63b22f 102.69%);
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-weight: 900;
+  height: 100%;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+.ul_div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.ul_div ul {
+  gap: 40px;
+  font-weight: 900;
+}
+.main_div {
+  background-image: url("https://fra1.digitaloceanspaces.com/coders-performance/codersEducation-static-files/img/banners/SAYT2.jpg?AWSAccessKeyId=FL25HZGDZOBPKPXUCDIO&Signature=jjjkuXl7mdBAUA%2F8O8Nq1Z3iO%2Bk%3D&Expires=1671799598");
+  width: 100%;
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main_div::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.398);
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+}
+.text {
+  color: #fff;
+  width: 60%;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.form_div {
+  width: 30%;
+  padding: 20px 10px;
+  border: 1px solid rgb(178, 172, 172);
+  background-color: #fff;
+}
+.form_div input {
+  width: 100%;
+  outline: 0;
+  border: 1px solid rgb(222, 216, 216);
+  margin-top: 10px;
+  border-top-left-radius: 9px;
+  padding: 10px;
+}
+.form input {
+  display: block;
+}
+.name {
+  display: flex;
+  gap: 20px;
+}
+.form .btn {
+  padding: 20px;
+  width: 100%;
+  margin-top: 10px;
+  border-top-left-radius: 20px;
+}
+.all_div {
+  background-image: url("https://fra1.digitaloceanspaces.com/coders-performance/codersEducation-static-files/img/ol2.jpg?AWSAccessKeyId=FL25HZGDZOBPKPXUCDIO&Signature=S%2BRH7gj9JSzXAwTxqbmB9NJdLuI%3D&Expires=1671978074");
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  position: relative;
+  z-index: 0;
+}
+.all_div::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.9);
+  opacity: 0.8;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+.text_div {
+  color: #fff;
+  font-size: 20px;
+  padding-left: 60px;
+  padding-top: 70px;
+}
+.box_div {
+  /* clip-path: polygon(7% 0, 100% 0, 100% 74%, 93% 100%, 0 100%, 0 31%); */
+  background: linear-gradient(69.2deg, #2eb8cd -1.2%, #63b22f 102.69%);
+  position: relative;
+  /* box-shadow: rgba(0, 0, 0, 0.398); */
+  width: 80%;
+  height: 200px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 50%); */
+  /* overflow: hidden; */
+  margin: 20px;
+  overflow: hidden;
+}
+.main_divv {
+  margin-top: 90px;
+  margin: 40px;
+  color: #fff;
+}
+.box_div::after {
+  content: "";
+  width: 20px;
+  height: 80px;
+  /* color: #63b22f; */
+  position: absolute;
+  color: #fff;
+  top: 80%;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  transform: rotate(45deg);
+  /* box-shadow: rgba(14, 1, 1, 0.9); */
+}
+.box_div::before {
+  content: "";
+  width: 20px;
+  height: 80px;
+  /* color: #63b22f; */
+  position: absolute;
+  color: #fff;
+  bottom: 80%;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  transform: rotate(45deg);
+  overflow: hidden;
+}
+.box_icon {
+  background-color: #fff;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  /* transform: translate(100px, 20px); */
+  padding: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  color: rgb(132, 129, 129);
+}
+.text_icon {
+  font-size: 20px;
+  color: #fff;
+  /* text-align: center; */
+}
+.how_to {
+  background-color: rgb(208, 204, 204);
+  position: relative;
+  /* width: 100%; */
+  /* height: 100%; */
+  /* padding: 60px; */
+  overflow: hidden;
+  padding: 0 20px;
+}
+.boxs_div {
+  background-color: #2eb8cd;
+  width: 50px;
+  height: 50px;
+  border-top-right-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texts_DIV {
+  display: flex;
+  gap: 20px;
+  padding-top: 30px;
+}
+.how_to img {
+  /* width: 420px; */
+  /* height: 600px; */
+  /* height: 900px; */
+  position: absolute;
+  transform: translate(900px, -500px);
+}
+.how_to::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+  background-color: rgba(5, 0, 0, 0.9);
+}
+.partnyorlar {
+  padding: 20px;
+}
+.first_ul img {
+  width: 100px;
+}
+.first_ul ul {
+  display: flex;
+  justify-content: space-between;
+}
+.h1_div {
+  padding-bottom: 60px;
+  padding-left: 100px;
+}
+.main_first_div {
+  border: 1px solid rgb(208, 204, 204);
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: rgb(222, 216, 216);
+  display: flex;
+  justify-content: space-between;
+}
+.mainn_div {
+  margin-left: 350px;
+  margin-top: 60px;
+}
+.main_first_div a i {
+  width: 30px;
+  height: 30px;
+  background-color: #2eb8cd;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.korporativ {
+  display: flex;
+  padding-top: 70px;
+  justify-content: space-around;
+}
+.images_div {
+  width: 30%;
+}
+.images_div img {
+  width: 100%;
+}
+.image_text_div {
+  padding-top: 40px;
+  padding-right: 40px;
+}

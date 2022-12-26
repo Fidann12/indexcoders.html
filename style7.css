@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  margin-top: 20px;
+}
+.fade {
+  margin-left: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 40px;
+  color: gray;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.4s;
+}
+.fade:hover {
+  background-color: rgb(15, 193, 209);
+}
+.sweep_to_right {
+  margin-left: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 40px;
+  color: gray;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+.sweep_to_right::before {
+  content: "";
+  background-color: rgb(15, 193, 209);
+  left: -100%;
+  top: 0;
+  transition: 0.4s;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  visibility: hidden;
+}
+.sweep_to_right:hover::before {
+  left: 0;
+  top: 0;
+  opacity: 1;
+  visibility: visible;
+}
+.sweep_to_left {
+  margin: 0 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 40px;
+  color: gray;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+.sweep_to_left::before {
+  content: "";
+  background-color: rgb(15, 193, 209);
+  right: -100%;
+  top: 0;
+  transition: 0.4s;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  visibility: hidden;
+}
+.sweep_to_left:hover::before {
+  background-color: rgb(15, 193, 209);
+  right: 0;
+  top: 0;
+  opacity: 1;
+  visibility: visible;
+}
+.bounce_to_right {
+  margin: 0 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 40px;
+  color: gray;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+.bounce_to_right::before {
+  content: "";
+  background-color: rgb(15, 193, 209);
+  position: absolute;
+  z-index: -1;
+  left: -100%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+.bounce_to_right:hover::before {
+  left: 0;
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.sweep_to_bottom {
+  margin: 0 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 40px;
+  color: gray;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+.sweep_to_bottom::before {
+  content: "";
+  background-color: rgb(15, 193, 209);
+  position: absolute;
+  left: 0;
+  top: -100%;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+.sweep_to_bottom:hover::before {
+  top: 0;
+  left: 0;
+  visibility: visible;
+}
+.sweep_to_top {
+  margin: 20px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 40px;
+  color: gray;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+.sweep_to_top::before {
+  content: "";
+  background-color: rgb(15, 193, 209);
+  bottom: -100%;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+.sweep_to_top:hover::before {
+  bottom: 0;
+  left: 0;
+  visibility: visible;
+}
+.bounce_to_left {
+  margin: 20px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 40px;
+  color: gray;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+.bounce_to_left::before {
+  content: "";
+  background-color: rgb(15, 193, 209);
+  right: -100%;
+  top: 0;
+  z-index: -1;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+.bounce_to_left:hover::before {
+  right: 0;
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.bounce_to_bottom {
+  margin: 20px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 40px;
+  color: gray;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+.bounce_to_bottom::before {
+  content: "";
+  background-color: rgb(15, 193, 209);
+  bottom: -100%;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+.bounce_to_bottom:hover::before {
+  bottom: 0;
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.bounce_to_top {
+  margin: 20px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 40px;
+  color: gray;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+.bounce_to_top::before {
+  content: "";
+  background-color: rgb(15, 193, 209);
+  top: -100%;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+.bounce_to_top:hover::before {
+  top: 0;
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.radial_in {
+  margin: 20px 20px;
+  /* border: 1px solid rgba(0, 0, 0, 0.1); */
+  border: 0;
+  font-size: 40px;
+  background-color: rgb(15, 193, 209);
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  color: #fff;
+}
+.radial_in::before {
+  content: "";
+  background-color: rgb(215, 212, 212);
+  top: -25%;
+  left: -25%;
+  z-index: -1;
+  position: absolute;
+  overflow: hidden;
+  width: 150%;
+  height: 150%;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+.radial_in:hover::before {
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+}
+.rectangle_in {
+  margin: 20px 20px;
+  border: 0;
+  font-size: 40px;
+  background-color: rgb(15, 193, 209);
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  color: #fff;
+}
+.rectangle_in::before {
+  content: "";
+  background-color: rgb(215, 212, 212);
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+.rectangle_in:hover::before {
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+}
+.border_fade {
+  margin-left: 200px;
+  font-size: 40px;
+  color: gray;
+  cursor: pointer;
+  border: 0;
+  padding: 10px;
+  transition: 0.1s;
+}
+/* .border_fade::before{
+  content: "";
+  background-color: rgb(15, 193, 209);
+  z-index: -1;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+  top: -100%; 
+ left: 0;
+} */
+.border_fade:hover {
+  border: 6px solid rgb(15, 193, 209);
+}

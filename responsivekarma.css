@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+  .menyu ul {
+    display: none !important;
+  }
+  .bars {
+    display: block !important ;
+  }
+  .common-img img {
+    display: none;
+  }
+  .img_right img {
+    flex-wrap: wrap;
+    display: block;
+  }
+}

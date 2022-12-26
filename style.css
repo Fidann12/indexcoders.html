@@ -1,0 +1,26 @@
+
+body{
+    background-color:teal;
+}
+
+.red_color{
+    color: red;
+}
+.orange_color{
+    background-color: orange;
+}
+#submit{
+    background-color: white;
+}
+#reset{
+    background-color: green;
+}
+.red_color{
+    background-color: white;
+}
+#information{
+    color: orange;
+}
+caption{
+    text-decoration: underline #000 dotted;
+}

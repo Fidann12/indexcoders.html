@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+  .hero-div ul {
+    display: none;
+  }
+  .bars {
+    display: block;
+  }
+  .text-div {
+    width: 100%;
+  }
+
+  .hero_section {
+    display: block;
+  }
+  .image_div {
+    width: 100%;
+  }
+  .tetext_img_div {
+    width: 100%;
+  }
+  .main_div {
+    display: block;
+  }
+  .first_div{
+    width: 100%;
+  }
+  .form_div{
+    font-size: 10px;
+  }
+  .footer_div{
+    display: block;
+  }
+}

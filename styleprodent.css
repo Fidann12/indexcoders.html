@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  font-weight: italic;
+  color: dimgray;
+}
+.container ul li a:hover {
+  transition: 0.1s;
+  color: #71cd29;
+}
+.home_li {
+  border: 0 solid;
+  background-color: rgb(89, 237, 89);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: aliceblue;
+}
+.second_ul {
+  display: flex;
+  gap: 40px;
+  font-size: 30px;
+}
+a {
+  color: inherit;
+}
+.second_header {
+  background-color: #eff2f4;
+  padding-top: 20px;
+  padding-bottom: 7px;
+}
+.second_header ul {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  gap: 20px;
+}
+.second_header > div > div > ul > li > i {
+  color: rgb(91, 197, 86);
+}
+.dental {
+  color: rgb(43, 41, 41);
+}
+.green_li {
+  font-size: 40px;
+}
+.gray_li {
+  color: rgb(112, 112, 112);
+  font-size: 20px;
+}
+.images_div {
+  background-image: url("https://preview.colorlib.com/theme/prodent/img/slide-1.jpg.webp");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0 auto;
+}
+.text_div {
+  display: block;
+  color: #fff;
+  line-height: 40px;
+}
+.text_div h1 {
+  font-size: 50px;
+  padding-top: 10px;
+  font-weight: italic;
+}
+.text_div h3 {
+  line-height: 40px;
+  font-size: 10px;
+}
+.read_more {
+  border: 0;
+  border-radius: 2px;
+  padding: 15px 30px;
+  color: #fff;
+  background-color: #71cd29;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.appointment {
+  background-color: #71cd29;
+}
+.texts_div {
+  color: #fff;
+}
+.read_mores {
+  background-color: #fff;
+  color: #000;
+  border: 0;
+  border-radius: 2px;
+  padding: 15px 30px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.common_div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  gap: 50px;
+}
+
+.imgs_div img {
+  width: 100%;
+}
+.we_care {
+  line-height: 30px;
+}
+.we_care h1 {
+  color: rgb(55, 53, 53);
+}
+.we_care h3 {
+  font-size: 20px;
+  font-weight: italic;
+}
+.tooth_brushes {
+  background-image: url("https://preview.colorlib.com/theme/prodent/img/facts-bg.jpg.webp");
+  background-position: center;
+  background-size: cover;
+}
+.tooth_li {
+  font-size: 80px;
+  color: #71cd29;
+}
+.white {
+  color: #fff;
+}
+.implants {
+  font-size: 60px;
+}
+.row_div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.our_services {
+  margin-bottom: 100px;
+  padding: 50px 500px;
+  color: #000;
+}
+.sevices {
+  background-color: rgb(214, 213, 213);
+}
+.icon_tooth {
+  width: 98px;
+  height: 98px;
+  padding: 20px 10px;
+  background: #fff;
+  font-size: 48px;
+  border: 0 solid;
+  border-radius: 50%;
+  color: #71cd29;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.img_text_div {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+.div_img {
+  width: 26%;
+  display: flex;
+}
+.div_img img {
+  width: 100%;
+}
+.tooth_div {
+  border: 0 solid;
+  background-color: rgb(194, 188, 188);
+  color: #fff;
+  padding: 10px 10px;
+  font-size: 15px;
+  font-weight: 100;
+}
+.jessica_brown {
+  padding: 10px 80px;
+  color: rgb(56, 54, 54);
+}
+.pacient {
+  padding: 10px 80px;
+  color: #71cd29;
+}
+/* .quotation {
+  border: 0 solid;
+  background-color: #71cd29;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  padding: 15px 15px;
+} */
+.icon_text {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+.Subscrieb {
+  background-color: #57a51b;
+}
+.lorem {
+  color: #fff;
+}
+.main_div {
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  padding: 30px 40px;
+  position: relative;
+}
+.subscribe {
+  background-color: rgb(32, 29, 29);
+  border: 0 solid;
+  color: #fff;
+  padding: 30px 30px;
+  position: absolute;
+}
+.prodent {
+  background-image: url("https://preview.colorlib.com/theme/prodent/img/footer-bg.jpg.webp");
+  padding: 50px;
+}
+.Phasellus {
+  padding-top: 20px;
+  line-height: 30px;
+}
+.ours {
+  padding-bottom: 30px;
+  color: #fff;
+}
+.dental_implants {
+  line-height: 50px;
+}
+.opening_hours {
+  display: flex;
+  gap: 70px;
+  line-height: 50px;
+  border: 1px solid #57a51b;
+  padding: 20px;
+  cursor: pointer;
+}
+.opening {
+  padding-top: 50px;
+}
+.week_ul .opening:hover {
+  transition: 0.1s;
+  color: #57a51b;
+}
+.last_div {
+  background-color: #0d0d0d;
+}
+.home_about_us {
+  display: flex;
+  gap: 40px;
+  cursor: pointer;
+}
+.green {
+  color: #57a51b;
+}
+.ul_li .home_about_us li:hover {
+  transition: 0.1s;
+  color: #57a51b;
+}
